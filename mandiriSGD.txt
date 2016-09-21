@@ -1,0 +1,1 @@
+curl -s http://www.bankmandiri.co.id | grep SGD -A4 | cut -d">" -f2 | cut -d"<" -f1 | xargs | cut -d" " -f2 | cut -d" " -f3
