@@ -1,1 +1,1 @@
-curl -s http://http://www.bankmandiri.co.id | grep USD -A2 | cut -d">" -f2 | cut -d"<" -f1 | xargs | cut -d" " -f2 | cut -d" " -f3
+curl -s http://http://www.bankmandiri.co.id | date | grep USD -A2 | cut -d">" -f2 | cut -d"<" -f1 | xargs | cut -d" " -f2 | cut -d" " -f3
