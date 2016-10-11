@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s http://stats.labs.apnic.net/ipv6/ID | sed '<div id="table_div">==$0 | xargs
