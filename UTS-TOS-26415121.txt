@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | grep harga -A2 |  cut -d">" -f2 | cut -d"<" -f1 | xargs | cut -d" " -f2 | cut -d" " -f3
+
